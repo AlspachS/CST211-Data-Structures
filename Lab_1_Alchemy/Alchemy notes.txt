@@ -1,0 +1,7 @@
+Alchemy Project:
+An alchemy game has a level, which determines how many symbols can be created normally.
+An alchemy game has a score, which represents how well a player did in the game.  This changes based on the moves made by the user.
+An alchemy game has a board, which is a 8x9 array of Tiles.
+An alchemy game uses RNG to create the symbol (or dissolvent) each round for the user to use.  80% of the time, a normal Symbol will be created using RNG to determine Shape and Color.  5% of the time, a Starting Symbol will be created.  15% of the time, The user can place a dissolvent on a Symbol on the board.
+An alchemy game has a Boolean representing if the game is over.  The game is over when the alchemy game’s Cauldron exceeds 3, or when all of the Tiles in the Board have a gold background.  In the latter’s game over situation, a level up and board clear occurs, resuming the game.
+An alchemy game has a Cauldron, which can be represented by an integer.  This increases when the user chooses to discard a Symbol (or dissolvent), and decreases when the user validly places a symbol (or dissolvent).  The lowest this can be is 0, and the highest is 3 (no game over), or 4 (game over).

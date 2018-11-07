@@ -1,0 +1,33 @@
+This is a report of times taken for different sorts on 15000 element arrays.
+
+The first time is for the native C++ array.
+The second time is for the student-written array class.
+The third time is for the STL Vector class.
+
+BruteBubbleSort took 000:00:14.201
+BruteBubbleSort took 000:01:26.705
+BruteBubbleSort took 000:01:53.717
+FlaggedBubbleSort took 000:00:02.231
+FlaggedBubbleSort took 000:00:33.149
+FlaggedBubbleSort took 000:01:20.575
+InsertionSort took 000:00:00.594
+InsertionSort took 000:00:19.984
+InsertionSort took 000:00:35.951
+SelectionSort took 000:00:01.244
+SelectionSort took 000:00:28.542
+SelectionSort took 000:00:47.929
+ShellSort took 000:00:00.016
+ShellSort took 000:00:00.140
+ShellSort took 000:00:00.266
+QuickSort took 000:00:00.000
+QuickSort took 000:00:00.064
+QuickSort took 000:00:00.091
+HeapSort took 000:00:00.031
+HeapSort took 000:00:00.316
+HeapSort took 000:00:00.290
+MergeSort took 000:00:00.063
+MergeSort took 000:00:00.125
+MergeSort took 000:00:00.189
+ShakerSort took 000:00:11.192
+ShakerSort took 000:01:10.557
+ShakerSort took 000:00:58.362
